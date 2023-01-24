@@ -1,0 +1,13 @@
+USE codeup_test_db;
+SELECT 'Name of all the Pink Floyd albums' AS 'Notice:';
+SELECT * FROM albums WHERE artist = 'Pink Floyd';
+SELECT 'Year Sgt. Pepper''s Lonely Hearts CLUB Band was released' AS 'Notice:';
+SELECT release_date FROM albums WHERE id = 28;
+SELECT 'Genres of Nevermind By Nirvana' AS 'Notice:';
+SELECT genre FROM albums WHERE name = 'Nevermind';
+SELECT 'All albums from 1990' AS 'Notice:';
+SELECT * FROM albums WHERE release_date = 1990;
+SELECT 'All albums whom sales were under 20 million' AS 'Notice:';
+SELECT * FROM albums WHERE sales_in_millions < 20;
+SELECT 'All albums from Rock genre' AS 'Notice:';
+SELECT * FROM albums WHERE genre = 'Rock';
