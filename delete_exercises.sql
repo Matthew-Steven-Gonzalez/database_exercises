@@ -2,7 +2,7 @@ USE codeup_test_db;
 SELECT 'All Albums released in 1991' AS 'Notice:';
 
 -- SELECT * FROM albums WHERE release_date = 1991;
-DELETE FROM albums WHERE release_date = 1991;
+DELETE FROM albums WHERE release_date BETWEEN 1991 AND 2022;
 
 SELECT 'All Albums with disco as a genre' AS 'Notice:';
 
